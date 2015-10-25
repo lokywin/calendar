@@ -1,90 +1,94 @@
 /* base settings */
 body{
-	background:#388E3C;
-	font-family: 'Libre Baskerville', Georgia, Serif;
-	font-size: 62.5%;
+  background:#388E3C;
+  font-family: 'Libre Baskerville', Georgia, Serif;
+  font-size: 62.5%;
 }
 a{text-decoration: none;}
 a:hover{text-decoration:underline;}
 p{font-size:1.4em;}
 
 /*generic classes*/
-.align_right{text-align:right;}
-.cal_cellsetting{text-indent:-9999px;opacity:1;filter: alpha(opacity = 50)} /*add zoom for IE if needed*/
+.align-right{text-align:right;}
+.cal-cellsetting{text-indent:-9999px;opacity:1;filter: alpha(opacity = 50)} /*add zoom for IE if needed*/
 
 /* calendar style */
 #cal_wrapper,#cal_wrapper-t{background:#FFF;margin:50px 0 35px;padding-bottom:30px;}
-	#cal_header{border-bottom:1px solid #CCC;margin:30px 40px 20px;}
-		#cal_header .first{margin-left:246px;}
-		.calheading {float: left;font-size: 1.3em;height: 21px;margin: 0 1px 6px 0;text-align: right;text-transform: uppercase;width: 71px;}
-		.weekend{color:#c1c1c1;}
-	#cal_body{margin:0 40px;}
-		.this-month-year {
-			position: relative;
-			height: 4.8rem;
-		}
-		.this-month-year .this-year {
-			color: #DDD;
-			font-size: 6rem;
-			margin-bottom: 0;
-			position: absolute;
-			top: -12px;
-			left: 0;
-			line-height: 1;
-			font-style: italic;
-			letter-spacing: -0.4rem;
-		}
-		.this-month-year .this-month {
-			font-size: 1.5rem;
-			position: absolute;
-			z-index: 1;
-			bottom: 1rem;
-			left: 5rem;
-		}
+  #cal_header{border-bottom:1px solid #CCC;margin:30px 40px 20px;}
+    #cal_header .first{margin-left:246px;}
+    .calheading {float: left;font-size: 1.3em;height: 21px;margin: 0 1px 6px 0;text-align: right;text-transform: uppercase;width: 71px;}
+    .weekend{color:#c1c1c1;}
+  #cal_body{margin:0 40px;}
+    .this-month-year {
+      position: relative;
+      height: 4.8rem;
+    }
+    .this-month-year .this-year {
+      color: #DDD;
+      font-size: 6rem;
+      margin-bottom: 0;
+      position: absolute;
+      top: -12px;
+      left: 0;
+      line-height: 1;
+      font-style: italic;
+      letter-spacing: -0.4rem;
+    }
+    .this-month-year .this-month {
+      font-size: 1.5rem;
+      position: absolute;
+      z-index: 1;
+      bottom: 1rem;
+      left: 5rem;
+    }
 
-		/*left col layout*/
-		#today_date{margin:32px 0 6px;font-style:italic;text-align: center;}
-		#today_caption {margin:6px 0 0;font-style:italic;}
-		#today_source{margin:6px 0 0;font-style:italic;font-size:1.2em;}
+    /*left col layout*/
+    #today_date{margin:32px 0 6px;font-style:italic;text-align: center;}
+    #today_caption {margin:6px 0 0;font-style:italic;}
+    #today_source{margin:6px 0 0;font-style:italic;font-size:1.2em;}
 
-		/*right col layout*/
-		#cal_datecell{padding-left:13px;width:497px;float:left;}
-		.cal_day{width:70px;height:70px;float:left;margin:0 1px 1px 0;}
-		.today {border: 7px solid #388E3C;height: 56px;width: 56px;text-indent:-9999px;}
-		.d_1{background:url(../images/d_1.jpg) no-repeat center center;}
-		.d_2{background:url(../images/d_2.jpg) no-repeat center center;}
-		.d_3{background:url(../images/d_3.jpg) no-repeat center center;}
-		.d_4{background:url(../images/d_4.jpg) no-repeat center center;}
-		.d_5{background:url(../images/d_5.jpg) no-repeat center center;}
-		.d_6{background:url(../images/d_6.jpg) no-repeat center center;}
-		.d_7{background:url(../images/d_7.jpg) no-repeat center center;}
-		.d_8{background:url(../images/d_8.jpg) no-repeat center center;}
-		.d_9{background:url(../images/d_9.jpg) no-repeat center center;}
-		.d_10{background:url(../images/d_10.jpg) no-repeat center center;}
-		.d_11{background:url(../images/d_11.jpg) no-repeat center center;}
-		.d_12{background:url(../images/d_12.jpg) no-repeat center center;}
-		.d_13{background:url(../images/d_13.jpg) no-repeat center center;}
-		.d_14{background:url(../images/d_14.jpg) no-repeat center center;}
-		.d_15{background:url(../images/d_15.jpg) no-repeat center center;}
-		.d_16{background:url(../images/d_16.jpg) no-repeat center center;}
-		.d_17{background:url(../images/d_17.jpg) no-repeat center center;}
-		.d_18{background:url(../images/d_18.jpg) no-repeat center center;}
-		.d_19{background:url(../images/d_19.jpg) no-repeat center center;}
-		.d_20{background:url(../images/d_20.jpg) no-repeat center center;}
-		.d_21{background:url(../images/d_21.jpg) no-repeat center center;}
-		.d_22{background:url(../images/d_22.jpg) no-repeat center center;}
-		.d_23{background:url(../images/d_23.jpg) no-repeat center center;}
-		.d_24{background:url(../images/d_24.jpg) no-repeat center center;}
-		.d_25{background:url(../images/d_25.jpg) no-repeat center center;}
-		.d_26{background:url(../images/d_26.jpg) no-repeat center center;}
-		.d_27{background:url(../images/d_27.jpg) no-repeat center center;}
-		.d_28{background:url(../images/d_28.jpg) no-repeat center center;}
-		.d_29{background:url(../images/d_29.jpg) no-repeat center center;}
-		.d_30{background:url(../images/d_30.jpg) no-repeat center center;}
-		.d_31{background:url(../images/d_31.jpg) no-repeat center center;}
+    /*right col layout*/
+    #cal_datecell{padding-left:13px;width:497px;float:left;}
+    .cal-day{background-repeat: no-repeat; background-position: center center; width:70px;height:70px;float:left;margin:0 1px 1px 0;}
+    .today {border: 7px solid #388E3C;height: 56px;width: 56px;text-indent:-9999px;}
+    .d-1{background:url(../images/d_1.jpg);}
+    .d-2{background:url(../images/d_2.jpg);}
+    .d-3{background:url(../images/d_3.jpg);}
+    .d-4{background:url(../images/d_4.jpg);}
+    .d-5{background:url(../images/d_5.jpg);}
+    .d-6{background:url(../images/d_6.jpg);}
+    .d-7{background:url(../images/d_7.jpg);}
+    .d-8{background:url(../images/d_8.jpg);}
+    .d-9{background:url(../images/d_9.jpg);}
+    .d-10{background:url(../images/d_10.jpg);}
+    .d-11{background:url(../images/d_11.jpg);}
+    .d-12{background:url(../images/d_12.jpg);}
+    .d-13{background:url(../images/d_13.jpg);}
+    .d-14{background:url(../images/d_14.jpg);}
+    .d-15{background:url(../images/d_15.jpg);}
+    .d-16{background:url(../images/d_16.jpg);}
+    .d-17{background:url(../images/d_17.jpg);}
+    .d-18{background:url(../images/d_18.jpg);}
+    .d-19{background:url(../images/d_19.jpg);}
+    .d-20{background:url(../images/d_20.jpg);}
+    .d-21{background:url(../images/d_21.jpg);}
+    .d-22{background:url(../images/d_22.jpg);}
+    .d-23{background:url(../images/d_23.jpg);}
+    .d-24{background:url(../images/d_24.jpg);}
+    .d-25{background:url(../images/d_25.jpg);}
+    .d-26{background:url(../images/d_26.jpg);}
+    .d-27{background:url(../images/d_27.jpg);}
+    .d-28{background:url(../images/d_28.jpg);}
+    .d-29{background:url(../images/d_29.jpg);}
+    .d-30{background:url(../images/d_30.jpg);}
+    .d-31{background:url(../images/d_31.jpg);}
 
 .calendar {font-size: 12px;}
 .calheader{overflow: hidden;}
 .calrow {height: 34px;}
 .calday{float: left;height: 33px;margin: 0 15px 0 0;padding-left: 3px;width: 30px;}
 
+/* Debug classes */
+.dbg-bdr-red { border: 1px solid red; }
+.dbg-bdr-green { border: 1px solid green; }
+.dbg-bdr-orange { border: 1px solid orange; }
