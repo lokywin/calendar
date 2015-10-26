@@ -1,6 +1,5 @@
 /* base settings */
 body{
-  background:#388E3C;
   font-family: 'Libre Baskerville', Georgia, Serif;
   font-size: 62.5%;
 }
@@ -28,8 +27,7 @@ p{font-size:1.4em;}
       font-size: 6rem;
       margin-bottom: 0;
       position: absolute;
-      top: -12px;
-      left: 0;
+      left: 40px;
       line-height: 1;
       font-style: italic;
       letter-spacing: -0.4rem;
@@ -38,18 +36,19 @@ p{font-size:1.4em;}
       font-size: 1.5rem;
       position: absolute;
       z-index: 1;
-      bottom: 1rem;
-      left: 5rem;
+      bottom: .2rem;
+      left: 6.2rem;
     }
 
     /*left col layout*/
     #today_date{margin:32px 0 6px;font-style:italic;text-align: center;}
+    #today_date_img{width: 229px;}
     #today_caption {margin:6px 0 0;font-style:italic;}
     #today_source{margin:6px 0 0;font-style:italic;font-size:1.2em;}
 
     /*right col layout*/
     #cal_datecell{padding-left:13px;width:497px;float:left;}
-    .cal-day{background-repeat: no-repeat; background-position: center center; width:70px;height:70px;float:left;margin:0 1px 1px 0;}
+    .cal-day{background-repeat: no-repeat; background-position: center center; background-size: contain; width:70px;height:70px;float:left;margin:0 1px 1px 0;}
     .today {border: 7px solid #388E3C;height: 56px;width: 56px;text-indent:-9999px;}
     .d-1{background:url(../images/d_1.jpg);}
     .d-2{background:url(../images/d_2.jpg);}

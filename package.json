@@ -1,0 +1,20 @@
+{
+  "name": "calendar-with-random-imgs",
+  "version": "1.0.0",
+  "description": "A React app that render a calendar with random number images from the web using google image search api",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokywin/calendar.git"
+  },
+  "author": "Loc Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lokywin/calendar/issues"
+  },
+  "homepage": "https://github.com/lokywin/calendar#readme",
+  "dependencies": {
+    "harp": "^0.19.0"
+  }
+}
